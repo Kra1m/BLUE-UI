@@ -1,0 +1,213 @@
+[gd_scene format=3 uid="uid://b4l06jaq248la"]
+
+[ext_resource type="Texture2D" uid="uid://bfs3274yw8l4y" path="res://pixil-frame-0.png" id="1_0fbet"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6vnta"]
+bg_color = Color(0.6431373, 0.7411765, 0.972549, 0.67058825)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="SystemFont" id="SystemFont_dxb74"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_62yky"]
+paragraph_spacing = 1.0
+font = SubResource("SystemFont_dxb74")
+font_size = 24
+outline_size = 1
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="FontFile" id="FontFile_m4p0s"]
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/17/0/ascent = 0.0
+cache/0/17/0/descent = 0.0
+cache/0/17/0/underline_position = 0.0
+cache/0/17/0/underline_thickness = 0.0
+cache/0/17/0/scale = 1.0
+cache/0/18/0/ascent = 0.0
+cache/0/18/0/descent = 0.0
+cache/0/18/0/underline_position = 0.0
+cache/0/18/0/underline_thickness = 0.0
+cache/0/18/0/scale = 1.0
+cache/0/19/0/ascent = 0.0
+cache/0/19/0/descent = 0.0
+cache/0/19/0/underline_position = 0.0
+cache/0/19/0/underline_thickness = 0.0
+cache/0/19/0/scale = 1.0
+cache/0/20/0/ascent = 0.0
+cache/0/20/0/descent = 0.0
+cache/0/20/0/underline_position = 0.0
+cache/0/20/0/underline_thickness = 0.0
+cache/0/20/0/scale = 1.0
+cache/0/21/0/ascent = 0.0
+cache/0/21/0/descent = 0.0
+cache/0/21/0/underline_position = 0.0
+cache/0/21/0/underline_thickness = 0.0
+cache/0/21/0/scale = 1.0
+cache/0/22/0/ascent = 0.0
+cache/0/22/0/descent = 0.0
+cache/0/22/0/underline_position = 0.0
+cache/0/22/0/underline_thickness = 0.0
+cache/0/22/0/scale = 1.0
+cache/0/23/0/ascent = 0.0
+cache/0/23/0/descent = 0.0
+cache/0/23/0/underline_position = 0.0
+cache/0/23/0/underline_thickness = 0.0
+cache/0/23/0/scale = 1.0
+cache/0/24/0/ascent = 0.0
+cache/0/24/0/descent = 0.0
+cache/0/24/0/underline_position = 0.0
+cache/0/24/0/underline_thickness = 0.0
+cache/0/24/0/scale = 1.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_aodgb"]
+font = SubResource("FontFile_m4p0s")
+font_size = 20
+outline_size = 1
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_m4p0s"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_15ghf"]
+bg_color = Color(0.15659401, 0.13522518, 0.30077508, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_aodgb"]
+bg_color = Color(0.5698443, 0.67338085, 0.9657287, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_color = Color(0, 0, 0, 0.7882353)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mm1bc"]
+
+[node name="Control" type="Control" unique_id=1923495753]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=322813665]
+propagate_maximum_size = true
+clip_contents = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.036000002
+anchor_top = 0.648
+anchor_right = 0.96400005
+anchor_bottom = 0.957
+offset_left = -0.47200394
+offset_top = 0.0960083
+offset_right = 0.47192383
+offset_bottom = 9.864014
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_6vnta")
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel" unique_id=1584010999]
+custom_maximum_size = Vector2(1070, 210)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/MarginContainer" unique_id=1924897821]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Panel/MarginContainer/VBoxContainer" unique_id=223653342]
+custom_maximum_size = Vector2(1020, 50)
+layout_mode = 2
+focus_neighbor_bottom = NodePath("../Label2")
+text = "Sing once again with me our strange duet My power over you grows stronger yet And thoughyou turn from me to glance behind The Phantom of the Opera is there Inside your mind"
+label_settings = SubResource("LabelSettings_62yky")
+autowrap_mode = 3
+max_lines_visible = 1
+text_direction = 1
+
+[node name="Label2" type="Label" parent="Panel/MarginContainer/VBoxContainer" unique_id=1991754084]
+custom_maximum_size = Vector2(1020, 240)
+layout_mode = 2
+text = "The count gave his brother a curious smiling glance and seemed quite pleased. They were soon at the door leading from the house to the stage. Numbers of subscribers were slowly making their way through. Raoul tore his gloves without knowing what he was doing and Philippe had much too kind a heart to laugh at him for his impatience. But he now understood why Raoul was absent-minded when spoken to and why he always tried to turn every conversation to the subject of the Opera.
+They reached the stage and pushed through the crowd of gentlemen, scene-shifters, supers and chorus-girls, Raoul leading the way, feeling that his heart no longer belonged to him, his face set with passion, while Count Philippe followed him with difficulty and continued to smile. At the back of the stage, Raoul had to stop before the inrush of the little troop of ballet-girls who blocked the passage which he was trying to enter. More than one chaffing phrase darted from little made-up lips, to which he did not reply; and at last he was able to pass, and dived into the semi-darkness of a corridor ringing with the name of \"Daae! Daae!\" The count was surprised to find that Raoul knew the way. He had never taken him to Christine's himself and came to the conclusion that Raoul must have gone there alone while the count stayed talking in the foyer with Sorelli, who often asked him to wait until it was her time to \"go on\" and sometimes handed him the little gaiters in which she ran down from her dressing-room to preserve the spotlessness of her satin dancing-shoes and her flesh-colored tights. Sorelli had an excuse; she had lost her mother.
+
+Postponing his usual visit to Sorelli for a few minutes, the count followed his brother down the passage that led to Daae's dressing-room and saw that it had never been so crammed as on that evening, when the whole house seemed excited by her success and also by her fainting fit. For the girl had not yet come to; and the doctor of the theater had just arrived at the moment when Raoul entered at his heels. Christine, therefore, received the first aid of the one, while opening her eyes in the arms of the other. The count and many more remained crowding in the doorway."
+label_settings = SubResource("LabelSettings_aodgb")
+autowrap_mode = 3
+max_lines_visible = 4
+
+[node name="Panel2" type="Panel" parent="." unique_id=1183916568]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.4
+anchor_top = 0.028
+anchor_right = 0.58000004
+anchor_bottom = 0.105000004
+offset_left = 0.19998169
+offset_top = -0.144001
+offset_right = -0.16003418
+offset_bottom = -20.04
+grow_horizontal = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_m4p0s")
+
+[node name="ProgressBar" type="ProgressBar" parent="Panel2" unique_id=1559579745]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 20
+theme_override_styles/background = SubResource("StyleBoxFlat_15ghf")
+theme_override_styles/fill = SubResource("StyleBoxFlat_aodgb")
+value = 50.0
+
+[node name="Panel3" type="Panel" parent="." unique_id=1583347126]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.94600004
+anchor_top = 0.015000001
+anchor_right = 0.99000007
+anchor_bottom = 0.093
+offset_left = 0.20800781
+offset_top = 0.27999973
+offset_right = -0.48010254
+offset_bottom = -0.26399994
+grow_horizontal = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_mm1bc")
+
+[node name="Button" type="Button" parent="Panel3" unique_id=5563307]
+modulate = Color(1.3749781, 1.3749781, 1.3749781, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+icon = ExtResource("1_0fbet")
